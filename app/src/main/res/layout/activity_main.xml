@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/randomPersonBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#00008B"
+        android:text="Find Random Person"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/favoriteListBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#90EE90"
+        android:text="Favorite List"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
